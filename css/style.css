@@ -1,0 +1,62 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    max-width: 1409px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+
+
+}
+
+.header_book_now_btn {
+    width: 200px;
+    height: 60px;
+    background-color: #5B6460;
+    color: white;
+    font-size: 14px;
+    transition: 0.5s all;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.header_book_now_btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+a {
+    transition: 0.5s all;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.header_logo {
+    padding-left: 113px;
+}
+
+.header_nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
